@@ -1,0 +1,67 @@
+body {
+    font-family: roboto, serial;
+    background-image: url('../bmw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header p,nav, footer p{
+    display: inline;
+    font: bold 24pt;
+    color: white;
+}
+
+header,footer {
+    padding:12px;
+    opacity: 0.7;
+}
+
+nav{
+    float: right;
+}
+
+a:link,a:active,a:visited {
+    color: white;
+    text-decoration: none;
+
+} 
+
+label {
+    font-size: bold;
+}
+
+button {
+     font-size: 120%;
+}
+
+.center{
+    text-align: center;
+    margin-top: 100px;
+    color: red;
+}
+
+footer{
+    margin-top: 120px;
+}
+.info{
+    border: 1px solid black;
+    width: 200px;
+    background-color:rgb(50, 51, 95) ;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    opacity: 0.5;
+    margin: 0 auto;
+}
+a{
+    display: inline;
+    padding: 20px;
+}
+.cont:hover{
+    background-color: red;
+    
+}
+.ser:hover{
+    background-color: red;
+}
+
